@@ -145,6 +145,45 @@ body {
 	margin: 0;
 }
 
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 200px;
+}
+
+.cta > .banner {
+	background-color: #3882F6;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	padding: 25px 100px;
+	border-radius: 12px;
+}
+
+.banner > .text .main {
+	color: #F9FAF8;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.banner > .text .subtext {
+	color: #E5E7EB;
+	font-size: 16px;
+}
+
+.banner > button {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 6px 32px;
+	font-size: 16px;
+	font-weight: 700;
+	border: 2px solid #E5E7EB;
+	border-radius: 8px;
+}
+
 .footer {
 	background-color: #1F2937;
 	color: #E5E7EB;
